@@ -1,0 +1,22 @@
+{
+	"namespace": "com.jeff",
+	"type": "record",
+	"name": "CoinbaseTransaction",
+	"fields": [
+	    {"name": "client_oid", "type": ["string", "null"]},
+		{"name": "maker_order_id", "type": ["string", "null"]},
+		{"name": "taker_order_id", "type": ["string", "null"]},
+		{"name": "order_id", "type": ["string", "null"]},
+		{"name": "order_type", "type": ["string", "null"]},
+		{"name": "price", "type": "string"},
+		{"name": "product_id", "type": "string"},
+		{"name": "reason", "type": ["string", "null"]},
+		{"name": "remaining_size", "type": ["string", "null"]},
+		{"name": "sequence", "type": "long"},
+		{"name": "side", "type": "string"},
+		{"name": "size", "type": ["string", "null"]},
+		{"name": "time", "type": "string"},
+		{"name": "trade_id", "type": ["long", "null"]},
+		{"name": "type", "type": "string"}
+	]
+}

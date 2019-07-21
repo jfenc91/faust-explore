@@ -1,0 +1,5 @@
+cbpro
+avro-python3
+aiokafka
+faust
+python-rocksdb
